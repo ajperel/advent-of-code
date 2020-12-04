@@ -66,12 +66,7 @@ function isValidPassport(passport) {
   return true;
 }
 
-let numValidPassports = 0;
-
-for (let passport of input) {
-  if (isValidPassport(passport)){ 
-    numValidPassports++;
-  }
-}
+let numValidPassports = input.reduce(
+    (numValid, passport) => {return isValidPassport(passport) ? ++numValid : numValid}, 0);
 
 console.log(numValidPassports);
