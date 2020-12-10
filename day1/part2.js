@@ -1,3 +1,9 @@
+/**
+ * Solutions for Advent of Code 2020, Day 1, Part 2.
+ * Original problem: https://adventofcode.com/2020/day/1
+ */
+
+
 let input = require('../lib/get-input').getInput();
 let numbers = [];
 for (let entry of input) {

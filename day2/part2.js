@@ -1,8 +1,14 @@
-// let testInput = [
-//   '1-3 a: abcde',
-//   '1-3 b: cdefg',
-//   '2-9 c: ccccccccc'
-// ];
+/**
+ * Solutions for Advent of Code 2020, Day 2, Part 2.
+ * Original problem: https://adventofcode.com/2020/day/2
+ */
+
+
+ let testInput = [
+  '1-3 a: abcde',
+  '1-3 b: cdefg',
+  '2-9 c: ccccccccc'
+];
 
 // let input = testInput;
 let input = require('../lib/get-input').getInput();

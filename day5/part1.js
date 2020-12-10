@@ -1,4 +1,10 @@
-let testInput = [
+/**
+ * Solutions for Advent of Code 2020, Day 5, Part 1.
+ * Original problem: https://adventofcode.com/2020/day/5
+ */
+
+
+ let testInput = [
   'BFFFBBFRRR',
   'FFFBBBFRRR',
   'BBFFBBFRLL'

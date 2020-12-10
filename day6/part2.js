@@ -1,4 +1,10 @@
-let testInput = [
+/**
+ * Solutions for Advent of Code 2020, Day 6, Part 2.
+ * Original problem: https://adventofcode.com/2020/day/6
+ */
+
+
+ let testInput = [
   'abc',
   'a\nb\nc',
   'ab\nac',

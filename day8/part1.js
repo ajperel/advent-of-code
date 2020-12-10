@@ -1,4 +1,10 @@
-let testInput = [
+/**
+ * Solutions for Advent of Code 2020, Day 8, Part 1.
+ * Original problem: https://adventofcode.com/2020/day/8
+ */
+
+
+ let testInput = [
   'nop +0',
   'acc +1',
   'jmp +4',
