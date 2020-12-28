@@ -30,14 +30,14 @@ function createEmptyNDimensionalSpace(sizes) {
   return space;
 }
 
-function growDimension(pocketDimension, numDimensions) {
+function growDimension(pocketDimension) {
   // Figure out the size of each axis in the pocket dimension.
   let sizes = [];
   let nextAxis = pocketDimension;
   do {
     sizes.push(nextAxis.length);
     nextAxis = nextAxis[0];
-  } while (nextAxis.length > 0);
+  } while (nextAxis && nextAxis.length > 0);
 
   // Need to account for Sizes growing!!
   function growNDimensionalSpace(space, sizes) {
